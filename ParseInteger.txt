@@ -1,0 +1,27 @@
+Parse Integer
+
+Description
+
+Dave is studying about JavaScript. He just learnt an awesome  function to convert a string into integer.
+
+Six months ago, he had written a useless code, which produces a random string line of alphabets (uppercase and lowercase) digits and white spaces.
+It has no special characters.
+
+input : the 5is 108 seCONd4 a
+output: 117
+
+explaination is 5+108+4=117;
+
+time execution : 10sec
+
+Code:
+
+
+
+//read the variable from STDIN
+process.stdin.on('data', function(chunk) {
+var lines = chunk.tostring().split("\n'),
+a = parseInt(lines[0])
+//output the variable to STDOUT
+console.log(a)
+})
